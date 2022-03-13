@@ -52,7 +52,7 @@ steps:
     publishWebProjects: false
     zipAfterPublish: true
     projects: '**/*.csproj'
-
+    
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
